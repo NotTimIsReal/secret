@@ -1,0 +1,20 @@
+{
+  "name": "secret",
+  "packageManager": "yarn@3.1.1",
+  "dependencies": {
+    "@types/cli-color": "^2.0.2",
+    "@types/prompts": "^2.0.14",
+    "cli-color": "^2.0.3",
+    "nodemon": "^2.0.19",
+    "prompts": "^2.4.2",
+    "puppeteer": "^15.4.0",
+    "ts-node": "^10.9.1",
+    "typescript": "4.4.4"
+  },
+  "scripts": {
+    "start": "node dist/main.js",
+    "test": "nodemon --esm src/main.ts",
+    "build": "tsc"
+  },
+  "bin": "dist/main.js"
+}
